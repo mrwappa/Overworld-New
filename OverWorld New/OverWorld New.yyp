@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0fef219e-fb09-4902-ac73-14cd35296955",
+            "Value": {
+                "id": "d2554d34-bf86-4a0e-8fdb-3770def1cf06",
+                "resourcePath": "views\\0fef219e-fb09-4902-ac73-14cd35296955.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "14f90825-099b-4b5a-a6c3-323765b1a542",
             "Value": {
                 "id": "665ae380-d4ec-4a87-af6b-6b546c378b11",
@@ -92,6 +100,22 @@
                 "id": "0389dec4-12ed-47bb-8c4e-0405076631ca",
                 "resourcePath": "sprites\\sTree1\\sTree1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "45472864-1af3-4b0d-8069-5072221d1f30",
+            "Value": {
+                "id": "91f2d3e2-b44f-4447-ae28-221b75b19b35",
+                "resourcePath": "views\\45472864-1af3-4b0d-8069-5072221d1f30.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "462d56c4-de74-4942-8c91-8b3b22efb8fa",
+            "Value": {
+                "id": "32e97206-7bb2-417b-8db0-81ea74952c0e",
+                "resourcePath": "views\\462d56c4-de74-4942-8c91-8b3b22efb8fa.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -207,6 +231,14 @@
             }
         },
         {
+            "Key": "78d3ecd3-6d5f-4649-9a11-7070a3d0f68d",
+            "Value": {
+                "id": "8345c777-1834-47fb-9968-0100cf07423e",
+                "resourcePath": "sprites\\sElf\\sElf.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7c3a39a8-82a5-420c-8514-f0ad184e6c4a",
             "Value": {
                 "id": "431c9b22-b9df-4cd2-b31d-f584053fe46f",
@@ -279,6 +311,14 @@
             }
         },
         {
+            "Key": "95237233-3829-478f-b1d1-3c65f56b6624",
+            "Value": {
+                "id": "0ea132cd-251f-450d-ad6a-0f9da7b835aa",
+                "resourcePath": "objects\\oGrabbable\\oGrabbable.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9bb63eb5-1e5f-49c8-a864-453195e05da8",
             "Value": {
                 "id": "0f0a14f9-1cb0-453b-a9dd-612d9bfb07c1",
@@ -295,6 +335,14 @@
             }
         },
         {
+            "Key": "a0e08dc1-54ba-400c-a28a-0af7a7675181",
+            "Value": {
+                "id": "fd92d36b-f869-40db-85fc-b9eb4c9f6af1",
+                "resourcePath": "objects\\oEntity\\oEntity.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "df4451d3-c374-4482-955e-49b78570933f",
@@ -308,6 +356,14 @@
                 "id": "4194d338-9264-47c9-a6a3-2c3f98d87c88",
                 "resourcePath": "views\\ac1dc798-887c-434f-b8b1-f187c0b86451.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ac1e802d-b1e2-4c05-ae52-03b1400b91ec",
+            "Value": {
+                "id": "a5c57005-2881-4000-8929-7efdb7d3f46f",
+                "resourcePath": "sprites\\sElfShadow\\sElfShadow.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -351,6 +407,14 @@
             }
         },
         {
+            "Key": "b78bbc17-e4f5-494e-a54d-a816d9d1b3e3",
+            "Value": {
+                "id": "7978a7b3-318c-4251-8b7c-0d80bf34dfd4",
+                "resourcePath": "views\\b78bbc17-e4f5-494e-a54d-a816d9d1b3e3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "bbd1c7f8-2e9f-48ff-b06f-b01ac0274746",
             "Value": {
                 "id": "d4d4c5a1-bead-4f96-bb9d-73645468ec9d",
@@ -383,11 +447,27 @@
             }
         },
         {
+            "Key": "cfe03cce-2054-4688-b37c-e83a0a50a46e",
+            "Value": {
+                "id": "f4d9ea73-b293-48c5-b30a-b477547e669a",
+                "resourcePath": "objects\\oWeapon\\oWeapon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d4024af4-6b7e-470d-a647-c222d15a00fa",
             "Value": {
                 "id": "5464b485-5f31-48bc-829f-77f33b7b7830",
                 "resourcePath": "objects\\oDisplayManager\\oDisplayManager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d9103428-cd35-4f55-a49d-c8e249f58dbd",
+            "Value": {
+                "id": "4f947c96-d193-458c-9865-179e9cc46294",
+                "resourcePath": "views\\d9103428-cd35-4f55-a49d-c8e249f58dbd.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -423,6 +503,14 @@
             }
         },
         {
+            "Key": "f466bbdf-3027-4e8b-a678-bbe9a7813824",
+            "Value": {
+                "id": "f196cd66-bc1e-4af6-a82d-a69a3f7f49ef",
+                "resourcePath": "sprites\\Stone3\\Stone3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fb3d552f-4d8f-43f5-9c0b-7bcc657d527d",
             "Value": {
                 "id": "34c47f8d-d892-4af1-8cfc-6cf67c623c7a",
@@ -436,6 +524,22 @@
                 "id": "2167752b-eca4-49e7-8994-2085bebc21d7",
                 "resourcePath": "views\\fe5135f5-b522-4569-9c52-d41d695ea1cd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ff8a3e1e-fdbb-4208-a54b-77227769d80a",
+            "Value": {
+                "id": "65f4291e-2a7a-444b-8089-ec3600bf7125",
+                "resourcePath": "objects\\oSlammable\\oSlammable.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ffdffa57-29bf-44c5-8d99-5fb5d9f8ca37",
+            "Value": {
+                "id": "eb08c579-53e6-4239-aff5-d737c3a3e4a3",
+                "resourcePath": "sprites\\sElfBack\\sElfBack.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],

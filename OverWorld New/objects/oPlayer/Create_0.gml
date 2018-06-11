@@ -1,5 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description
+event_inherited();
+image_speed = 0;
 image_xscale = SpriteScale;
 image_yscale = image_xscale;
 InstanceCreate(0,0,oLerpTest);
@@ -9,7 +10,7 @@ ySpeed = 0;
 moveAcceleration = 0.5;
 moveRestitution = 0.7;
 
-moveSpeed = 200;
+moveSpeed = 165;
 maxSpeed = moveSpeed;
 
 xDir = 0;
@@ -20,5 +21,3 @@ yAdd = 0;
 
 xSub = 0;
 ySub = 0;
-
-color = c_white;

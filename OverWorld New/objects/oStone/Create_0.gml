@@ -4,6 +4,6 @@ randomize();
 
 image_xscale = SpriteScale;
 image_yscale = image_xscale;
-sprite_index = choose(sStone1,sStone2);
+sprite_index = choose(sStone1,sStone2,Stone3);
 
 depth = -y;
