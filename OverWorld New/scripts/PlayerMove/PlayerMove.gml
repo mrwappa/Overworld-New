@@ -28,21 +28,41 @@ if(xSpeed != 0 and ySpeed != 0)
 	ySpeed = (ySpeed / dist) * mdist;
 }
 
-var solidObj = XPrevCol(xSpeed*delta,oSolid);
-if(solidObj != noone)
+var xCol = false;
+var yCol = false;
+
+//Collision
+var solidXObj = XPrevCol(xSpeed*delta,oSolid);
+if(solidXObj != noone)
 {
 	xSpeed = 0;
+	xCol = true;
 }
 
-solidObj = YPrevCol(ySpeed*delta,oSolid); 
-if(solidObj != noone)
+var solidYObj = YPrevCol(ySpeed*delta,oSolid); 
+if(solidYObj != noone)
 {
 	ySpeed = 0;	
+	yCol = true;
+}
+
+if(!xCol and yCol)
+{
+	var objWidth = abs(solidYObj.bbox_left - solidYObj.bbox_right);
+	var myWidth = abs(bbox_left - bbox_right);
 	
-	if(abs((x - bbox_left) - (solidObj.bbox_left)))
+	if(abs(x - myWidth) - (solidYObj.x - objWidth) < 2 and x < solidYObj.x)
 	{
-			
+		xSpeed -= 10000*delta;
 	}
+	else if(abs(x + myWidth) - (solidYObj.x + objWidth) > 2 and x > solidYObj.x)
+	{
+		xSpeed += 10000*delta;
+	}
+}
+else if(!yCol and xCol)
+{
+	
 }
 
 x += xSpeed*delta;
