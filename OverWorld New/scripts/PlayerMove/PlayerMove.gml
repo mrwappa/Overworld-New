@@ -28,5 +28,22 @@ if(xSpeed != 0 and ySpeed != 0)
 	ySpeed = (ySpeed / dist) * mdist;
 }
 
+var solidObj = XPrevCol(xSpeed*delta,oSolid);
+if(solidObj != noone)
+{
+	xSpeed = 0;
+}
+
+solidObj = YPrevCol(ySpeed*delta,oSolid); 
+if(solidObj != noone)
+{
+	ySpeed = 0;	
+	
+	if(abs((x - bbox_left) - (solidObj.bbox_left)))
+	{
+			
+	}
+}
+
 x += xSpeed*delta;
 y += ySpeed*delta;
