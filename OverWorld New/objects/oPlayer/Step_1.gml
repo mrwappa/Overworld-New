@@ -19,11 +19,16 @@ if(imgSpeed == 0)
 
 depth = -y -8;
 //image_xscale = mouse_x > x ? SpriteScale : -SpriteScale;
-if(ySpeed < 0)
+/*if(ySpeed < 0)
 {
 	sprite_index = sElfBack;
 }
 else if(ySpeed > 0)
 {
 	sprite_index = sElf;
+}*/
+sprite_index = sElf;
+if(mouse_y < y)
+{
+	sprite_index = sElfBack;
 }

@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0b70796d-9c15-4119-8a77-216812607fd5",
+            "Value": {
+                "id": "c7a1a9dd-087f-453a-aa97-27c089a106f3",
+                "resourcePath": "sprites\\sBlob\\sBlob.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0fef219e-fb09-4902-ac73-14cd35296955",
             "Value": {
                 "id": "d2554d34-bf86-4a0e-8fdb-3770def1cf06",
@@ -180,6 +188,14 @@
                 "id": "70245893-1896-4a78-a55d-fdfda6e0cbe7",
                 "resourcePath": "views\\50ffaa3a-4331-41ca-83d0-15a6027017d5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "580aad3a-4b42-4655-89f8-96e5121cf4ad",
+            "Value": {
+                "id": "99a1964c-bb8b-48f0-875f-6444f704bf95",
+                "resourcePath": "objects\\oTerrain\\oTerrain.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -367,6 +383,14 @@
             }
         },
         {
+            "Key": "98744d88-aeec-4963-8c0c-43a4b856f8b1",
+            "Value": {
+                "id": "fd5199b3-4cf5-4fd7-8f3f-edde00e73f8f",
+                "resourcePath": "sprites\\sprite15\\sprite15.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9bb63eb5-1e5f-49c8-a864-453195e05da8",
             "Value": {
                 "id": "0f0a14f9-1cb0-453b-a9dd-612d9bfb07c1",
@@ -396,6 +420,14 @@
                 "id": "7d32d401-6ec5-4818-8fa7-53d8af03026b",
                 "resourcePath": "scripts\\YPrevCol\\YPrevCol.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a64d5938-e9db-4f49-b5fb-0100940e4d0a",
+            "Value": {
+                "id": "1955dffc-804c-4635-b29a-8cec105f3aa8",
+                "resourcePath": "views\\a64d5938-e9db-4f49-b5fb-0100940e4d0a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -547,6 +579,14 @@
             "Value": {
                 "id": "365a55ae-c46a-4df4-b46c-31eba1826009",
                 "resourcePath": "objects\\oHerb\\oHerb.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dbaec00d-7788-4bc7-b917-f0683832f3bb",
+            "Value": {
+                "id": "093217bc-04dc-4e84-9235-911f8a97596d",
+                "resourcePath": "objects\\oBlob\\oBlob.yy",
                 "resourceType": "GMObject"
             }
         },

@@ -7,4 +7,7 @@ previousSprite = sprite_index;
 
 image_speed = 0;
 
+image_xscale = SpriteScale;
+image_yscale = SpriteScale;
+
 color = c_white;

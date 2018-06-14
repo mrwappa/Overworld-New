@@ -46,6 +46,7 @@ if(solidYObj != noone)
 	yCol = true;
 }
 
+//Moving aside from small solid objects
 if(!xCol and yCol)
 {
 	var objWidth = abs(solidYObj.bbox_left - solidYObj.bbox_right);
@@ -53,11 +54,11 @@ if(!xCol and yCol)
 	
 	if(abs(x - myWidth) - (solidYObj.x - objWidth) < 2 and x < solidYObj.x)
 	{
-		xSpeed -= 10000*delta;
+		xSpeed -= 8000*delta;
 	}
 	else if(abs(x + myWidth) - (solidYObj.x + objWidth) > 2 and x > solidYObj.x)
 	{
-		xSpeed += 10000*delta;
+		xSpeed += 8000*delta;
 	}
 }
 else if(!yCol and xCol)
