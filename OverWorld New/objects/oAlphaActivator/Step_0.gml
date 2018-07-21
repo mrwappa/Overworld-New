@@ -4,7 +4,7 @@ if(instance_place(x,y,oPlayer))
 {
 	with(solidObj)
 	{
-		image_alpha = DLerp(image_alpha,0.35,0.001);	
+		image_alpha = DLerp(image_alpha,0.35,0.00000001);	
 	}
 }
 else

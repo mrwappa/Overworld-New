@@ -21,3 +21,5 @@ yAdd = 0;
 
 xSub = 0;
 ySub = 0;
+
+playerAttack = noone;

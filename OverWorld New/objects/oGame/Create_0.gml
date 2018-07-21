@@ -27,3 +27,10 @@ dt = delta_time/1000000;
 dtPrevious = dt;
 // Whether or not internal delta time has been restored to previous value
 dtRestored = false;
+
+
+//Other Globals
+globalvar EnemyHPColor;
+globalvar EnemyHPBkgrColor;
+EnemyHPColor = make_color_rgb(255,0,68);
+EnemyHPBkgrColor = make_color_rgb(162,38,51);
